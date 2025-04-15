@@ -1,4 +1,6 @@
-#Key_Silence 
+# Key_Silence 
+**KeySilence** silently unlocks macOS Keychain and extracts Chrome Safe Storage credentials using native macOS APIs with no `security` binary calls—bypassing typical EDR detection techniques.
+
 
 Functionally:
  - Unlocks macOS Keychain silently
