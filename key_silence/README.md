@@ -1,5 +1,5 @@
 # Key_Silence 
-**KeySilence** silently unlocks macOS Keychain and extracts Chrome Safe Storage credentials using native macOS APIs with no `security` binary calls—bypassing typical EDR detection techniques.
+**Key_Silence** silently unlocks macOS Keychain and extracts Chrome Safe Storage credentials using native macOS APIs with no `security` binary calls—bypassing typical EDR detection techniques.
 
 
 Functionally:
@@ -14,3 +14,7 @@ Detection:
 
 
 
+## Files 
+
+### keychain_unlock_and_extract.py 
+Demo version utilizing an existing userpass.txt file with the user password. This version still gets two TCC popups. One for python accessing the "Chorme Safe Storage" keychain and the other for accessing the key "Chrome Safe Storage" inside the keychain. 
